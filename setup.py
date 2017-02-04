@@ -10,8 +10,8 @@ setup(
     name='easy-scheduler',
     version=version,
     packages=find_packages(),
-    install_requires=['apscheduler'],
-
+    install_requires=['apscheduler',
+                      'arrow'],
     author='jxltom',
     author_email='jxltom@gmail.com',
     license='MIT',
