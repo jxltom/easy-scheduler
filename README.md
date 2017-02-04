@@ -19,14 +19,14 @@ Lightly encapsulated APScheduler for easier use.
     
     scheduler = Scheduler(timezone='Asia/Hong_Kong')
     scheduler.start()
-    scheduler.add()
-    scheduler.add()
-    scheduler.remove()
+    scheduler.add('first_job', lambda: 'success', 'cron', hour='00', minute='01')
+    scheduler.add('second_job', lambda: 'success', 'interval', seconds=10)
+    scheduler.remove('second_job')
     scheduler.print()
     
-    scheduler.job_status()
-    scheduler.job_result()
-    scheduler.job_next_run_time()
+    scheduler.job_status('first_job')
+    scheduler.job_result('first_job')
+    scheduler.job_next_run_time('first_job')
     
     scheduler.shutdown()
     ```
