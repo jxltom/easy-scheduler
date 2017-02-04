@@ -1,2 +1,5 @@
 # easy-scheduler
-Lightly encapsulated APScheduler for easier use
+
+Lightly encapsulated APScheduler for easier use.
+
+## Features
