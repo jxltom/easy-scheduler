@@ -17,5 +17,6 @@ setup(
     license='MIT',
     keywords='apscheduler scheduling',
     url='https://github.com/jxltom/easy-scheduler/',
-    description='Lightly encapsulated APScheduler for easier use',
+    description='Lightly encapsulated APScheduler '
+                'with in-memory result store backend',
 )

@@ -1,10 +1,10 @@
 # easy-scheduler
 
-Lightly encapsulated APScheduler for easier use.
+Lightly encapsulated APScheduler with in-memory result store backend.
 
 ## Features
 
-- Job excecution result and status quering supported
+- In-memory result store backend
 
 ## Getting Started
 

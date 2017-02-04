@@ -73,4 +73,3 @@ class Scheduler:
     def print(self):
         """Print jobs information."""
         self._scheduler.print_jobs()
-
