@@ -15,7 +15,7 @@ setup(
     author='jxltom',
     author_email='jxltom@gmail.com',
     license='MIT',
-    keywords='apscheduler scheduling',
+    keywords='apscheduler in-memory result-store-backend scheduling',
     url='https://github.com/jxltom/easy-scheduler/',
     description='Lightly encapsulated APScheduler '
                 'with in-memory result store backend',
